@@ -1,0 +1,1375 @@
+body {
+  font: 12px/1.5 tahoma, arial, 'Hiragino Sans GB', '\5b8b\4f53', sans-serif;
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.clear:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.lh20 {
+  line-height: 20px !important;
+  padding: 4px 0px;
+}
+.show {
+  overflow: hidden;
+  position: relative;
+  margin-right: 10px;
+}
+.show:hover span {
+  display: block;
+}
+.show span {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  display: block;
+  width: 24px;
+  height: 36px;
+  line-height: 36px;
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+  cursor: pointer;
+  display: none;
+}
+.allimage {
+  position: absolute;
+  left: -520px;
+}
+.allimage li {
+  display: inline;
+  float: left;
+}
+.order {
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 5px;
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.order li {
+  display: inline;
+  float: left;
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background: #B7B7B7;
+  margin: 2px;
+  cursor: pointer;
+}
+.rightarrow {
+  right: 0;
+}
+html,
+body,
+ul,
+li,
+ol,
+dl,
+dd,
+dt,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+form,
+fieldset,
+legend,
+img,
+div,
+input {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+fieldset,
+img {
+  border: none;
+}
+img {
+  display: block;
+}
+address,
+caption,
+cite,
+code,
+dfn,
+th,
+var {
+  font-style: normal;
+  font-weight: normal;
+}
+ul,
+ol {
+  list-style: none;
+}
+input {
+  padding-top: 0;
+  padding-bottom: 0;
+  font-family: "SimSun", "宋体";
+}
+input::-moz-focus-inner {
+  border: none;
+  padding: 0;
+}
+select,
+input {
+  vertical-align: middle;
+}
+select,
+input,
+textarea {
+  font-size: 12px;
+  margin: 0;
+}
+input[type="text"],
+input[type="password"],
+textarea {
+  outline-style: none;
+  -webkit-appearance: none;
+}
+textarea {
+  resize: none;
+}
+input,
+textarea {
+  background: none;
+  border: none;
+}
+table {
+  border-collapse: collapse;
+}
+body {
+  color: #333;
+  font: 12px/20px "SimSun", "宋体", "Arial Narrow", HELVETICA;
+  background: #fff;
+}
+a {
+  color: #666;
+  text-decoration: none;
+}
+a:visited {
+  color: #666;
+}
+a:hover,
+a:active,
+a:focus {
+  color: #ff8400;
+  text-decoration: none;
+}
+.w1190 {
+  width: 1190px;
+  margin: 0 auto;
+}
+.usernav {
+  height: 35px;
+  line-height: 35px;
+  background-color: #f5f5f5;
+  font-size: 12px;
+}
+.usernav .icon-liebiao1,
+.usernav .icon-gouwuche {
+  color: #f40;
+}
+.usernav .iconfont {
+  margin: 0px 4px;
+}
+.usernav li {
+  display: inline;
+  float: left;
+  padding: 0px 8px;
+  height: 35px;
+  cursor: pointer;
+}
+.usernav li:hover {
+  color: #f40;
+}
+.usernav .menu {
+  position: relative;
+}
+.usernav .menu:hover {
+  background-color: #fff;
+  border-left: 1px solid #ddd;
+}
+.usernav .menu:hover .submenu {
+  display: block;
+  border-top: 0;
+}
+.usernav .menu .submenu {
+  position: absolute;
+  width: 100px;
+  border: 1px solid #ddd;
+  top: 35px;
+  left: -1px;
+  padding: 0px 8px;
+  display: none;
+  z-index: 1000;
+  background-color: #fff;
+}
+.usernav .menu .sidemenu {
+  right: 0;
+  left: auto;
+  width: 1184px;
+}
+body {
+  background: #f1f1f1;
+}
+.logo {
+  background: #fff;
+  padding-top: 32px;
+}
+.logo .w1190 {
+  overflow: hidden;
+}
+.logo h1 {
+  background: url("../images/logo.jpg") no-repeat;
+  width: 145px;
+  height: 58px;
+  text-indent: -9999px;
+  margin-top: 6px;
+  margin-left: 22px;
+  height: 132px;
+}
+.logo .logo-search {
+  margin-left: 106px;
+  height: 90px;
+  background-color: #fff;
+}
+.logo .logo-search li {
+  float: left;
+}
+.logo .logo-search li a:hover {
+  font-weight: bold;
+}
+.logo .logo-search .search-add .additem {
+  background-color: #ff5400;
+}
+.logo .logo-search .search-add li {
+  width: 50px;
+  line-height: 25px;
+  text-align: center;
+  cursor: pointer;
+}
+.logo .logo-search .search-container {
+  height: 40px;
+  border: 3px solid #ff5400;
+  line-height: 40px;
+  margin-top: 0px;
+  position: relative;
+}
+.logo .logo-search .search-container span {
+  font-size: 16px;
+  position: absolute;
+  top: -1px;
+  color: #9c9c9c;
+  cursor: pointer;
+}
+.logo .logo-search .search-container .catplace {
+  display: none;
+}
+.logo .logo-search .search-container .icon-fangdajing-copy {
+  left: 12px;
+}
+.logo .logo-search .search-container .placeholder {
+  left: 30px;
+  font-size: 12px;
+}
+.logo .logo-search .search-container .icon-camera {
+  left: 484px;
+  font-size: 18px;
+}
+.logo .logo-search input {
+  height: 100%;
+  margin-top: -8px;
+  line-height: 34px;
+  outline: none;
+  font-size: 12px;
+}
+.logo .logo-search .text {
+  width: 500px;
+  padding-left: 10px;
+}
+.logo .logo-search .submit {
+  background-color: #ff5400;
+  width: 122px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+}
+.logo .logo-search .super-search {
+  display: inline-block;
+  width: 24px;
+  height: 34px;
+  margin-left: 8px;
+}
+.logo .logo-search .search-list {
+  margin-top: 44px;
+  padding-right: 25px;
+  color: #666;
+}
+.logo .logo-search .search-list li {
+  margin-right: 10px;
+}
+.logo .logo-search .search-list .list-end {
+  display: inline;
+  float: right;
+}
+.logo .phonetaobao {
+  width: 100px;
+  height: 116px;
+  text-align: center;
+  border: 1px solid #eee;
+  position: relative;
+}
+.logo .phonetaobao img {
+  width: 80px;
+  margin-left: 9px;
+}
+.logo .phonetaobao i {
+  position: absolute;
+  top: -1px;
+  left: -22px;
+  width: 20px;
+  height: 20px;
+  border: 1px solid #eee;
+  border-right: 0;
+  cursor: pointer;
+  color: #999;
+}
+.logo.fixed {
+  position: fixed;
+  top: 0px;
+  background-color: #fff;
+  padding-top: 8px;
+  height: 50px;
+  width: 100%;
+  z-index: 999;
+}
+.logo.fixed h1 {
+  background: url("../images/logo_xiao.png") no-repeat;
+  width: 80px;
+  height: 33px;
+  text-indent: -9999px;
+  margin-top: 6px;
+  margin-left: 0px;
+  height: 132px;
+}
+.logo.fixed .logo-search {
+  margin-left: 194px;
+  position: relative;
+  height: 100%;
+}
+.logo.fixed .logo-search .search-add {
+  position: absolute;
+  z-index: 999;
+  top: 3px;
+  left: 3px;
+  height: 29px;
+  overflow: hidden;
+  border: 1px solid #ddd;
+}
+.logo.fixed .logo-search .search-add:hover {
+  height: 87px;
+}
+.logo.fixed .logo-search .search-add li {
+  float: none;
+  background-color: #f6f6f6;
+  height: 29px;
+  line-height: 29px;
+}
+.logo.fixed .search-container {
+  height: 35px;
+}
+.logo.fixed .search-container input {
+  height: 29px;
+  line-height: 29px;
+  position: relative;
+  top: 8px;
+}
+.logo.fixed .search-container .text {
+  padding-left: 55px;
+  width: 500px;
+  float: left;
+}
+.logo.fixed .search-container .submit {
+  float: left;
+}
+.logo.fixed .search-list,
+.logo.fixed .phonetaobao,
+.logo.fixed .catplace,
+.logo.fixed .icon-fangdajing-copy,
+.logo.fixed .placeholder,
+.logo.fixed .icon-camera,
+.logo.fixed .super-search {
+  display: none;
+}
+.goodslist {
+  height: 610px;
+}
+.goodslist .renqigood {
+  width: 890px;
+  height: 76px;
+  background: #fff;
+  padding: 5px;
+}
+.goodslist .renqigood .renqi li {
+  display: inline;
+  float: left;
+  width: 20%;
+}
+.goodslist .renqigood .renqi li:hover img {
+  border: 1px solid #f40;
+}
+.goodslist .renqigood .renqi li:hover .fonts {
+  color: #ff4400;
+}
+.goodslist .renqigood .renqi li .small {
+  font-size: 14px;
+  color: #9a745f;
+}
+.goodslist .renqigood .renqi li img {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+  margin-right: 16px;
+}
+.goodslist .register {
+  width: 290px;
+  text-align: center;
+  height: 650px;
+  padding-top: 8px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+.goodslist .register .register-item {
+  width: 290px;
+  height: 168px;
+  padding-top: 12px;
+}
+.goodslist .register .register-item .kefu {
+  width: 60px;
+  height: 60px;
+  margin-left: 117px;
+}
+.goodslist .register .register-item .jinbi {
+  line-height: 18px;
+  margin-bottom: 4px;
+}
+.goodslist .register .register-item .jinbi p {
+  color: #999;
+}
+.goodslist .register .register-item .jinbi img {
+  display: inline-block;
+  position: relative;
+  top: 4px;
+}
+.goodslist .register .register-item .jinbi span {
+  color: #f40;
+  margin: 0px 4px;
+}
+.goodslist .register .register-item button {
+  height: 25px;
+  outline: none;
+  border: 0;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 10px 26px;
+  line-height: 8px;
+  background-color: #ff4400;
+}
+.goodslist .register .register-item button.reg {
+  padding: 10px 32px;
+}
+.goodslist .register .announcement {
+  width: 290px;
+  height: 112px;
+  background-color: #fff;
+  padding: 8px 4px;
+}
+.goodslist .register .announcement .safetab {
+  margin-bottom: 14px;
+}
+.goodslist .register .announcement .safetab li {
+  display: inline;
+  float: left;
+  margin: 0px 10px;
+  width: 36px;
+  cursor: pointer;
+}
+.goodslist .register .announcement .safetab li.on {
+  border-bottom: 2px solid #f40;
+}
+.goodslist .register .announcement .showlist {
+  height: 100px;
+  display: none;
+}
+.goodslist .register .announcement .showlist span {
+  color: #3C3C3C;
+  font-weight: normal;
+  display: inline-block;
+  text-align: left;
+  width: 132px;
+}
+.goodslist .aliapp {
+  width: 290px;
+  height: 117px;
+  border: 1px solid red;
+  margin-top: 14px;
+}
+.goodslist .service {
+  height: 186px;
+  width: 290px;
+  background-color: #fff;
+  margin-top: 4px;
+}
+.goodslist .service li {
+  width: 25%;
+  display: inline;
+  float: left;
+  height: 62px;
+  border-right: 1px solid #f1f1f1;
+  border-bottom: 1px solid #f1f1f1;
+  cursor: pointer;
+  border-top: 1px solid transparent;
+  border-left: 1px solid transparent;
+  position: relative;
+}
+.goodslist .service li.icon:hover {
+  border: 1px solid red;
+  border-bottom: none;
+}
+.goodslist .service li.icon:hover .hideline,
+.goodslist .service li.icon:hover .icon-submenu {
+  display: block;
+}
+.goodslist .service li .hideline {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  height: 1px;
+  background: #fff;
+  top: 61px;
+  z-index: 4;
+  display: none;
+}
+.goodslist .service li .icon-submenu {
+  width: 290px;
+  height: 124px;
+  position: absolute;
+  z-index: 3;
+  top: 61px;
+  left: -1px;
+  border: 1px solid red;
+  background: #fff;
+  display: none;
+}
+.goodslist .service li .icon-submenu #select {
+  display: block;
+  width: 150px;
+  margin-left: 10px;
+  margin-top: 10px;
+  height: 25px;
+}
+.goodslist .service li .icon-submenu input {
+  width: 150px;
+  height: 25px;
+  border: 1px solid #ccc;
+  display: block;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.goodslist .service li .icon-submenu button {
+  display: block;
+  border: 0px;
+  outline: none;
+  background: #ff4400;
+  color: #fff;
+  padding: 5px 10px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.goodslist .service li .icon-submenu.submenu2 {
+  left: -74px;
+}
+.goodslist .service li .icon-submenu.submenu3 {
+  left: -147px;
+}
+.goodslist .service li .icon-submenu.submenu4 {
+  left: -219px;
+}
+.goodslist .service li i {
+  display: block;
+  width: 24px;
+  height: 24px;
+  background: url("../images/services-bg.png") no-repeat 0px 0px;
+  margin: 5px auto;
+}
+.goodslist .service li .icon1 {
+  background-position: 0px 0px;
+}
+.goodslist .service li .icon2 {
+  background-position: 0px -44px;
+}
+.goodslist .service li .icon3 {
+  background-position: 0px -89px;
+}
+.goodslist .service li .icon4 {
+  background-position: 0px -132px;
+}
+.goodslist .service li .icon5 {
+  background-position: 0px -176px;
+}
+.goodslist .service li .icon6 {
+  background-position: 0px -220px;
+}
+.goodslist .service li .icon7 {
+  background-position: 0px -264px;
+}
+.goodslist .service li .icon8 {
+  background-position: 0px -308px;
+}
+.goodslist .service li .icon9 {
+  background-position: 0px -352px;
+}
+.goodslist .service li .icon10 {
+  background-position: 0px -396px;
+}
+.goodslist .service li .icon11 {
+  background-position: 0px -440px;
+}
+.goodslist .service li .icon12 {
+  background-position: 0px -485px;
+}
+.goodslist .sidelist {
+  width: 190px;
+  background-color: #ff6a05;
+  color: #fff;
+  padding-top: 10px;
+  margin-left: 0px;
+  margin-top: -31px;
+}
+.goodslist .sidelist img {
+  width: 190px;
+  height: 43px;
+}
+.goodslist .sidelist h3 {
+  padding: 0px 8px;
+  padding-bottom: 2px;
+}
+.goodslist .sidelist h3 .icon-liebiao {
+  font-size: 14px;
+}
+.goodslist .sidelist .refer {
+  position: relative;
+}
+.goodslist .sidelist .referli {
+  padding: 2px 10px 2px 8px;
+  line-height: 21px;
+  height: 30px;
+}
+.goodslist .sidelist .referli .submenu {
+  width: 712px;
+  height: 523px;
+  position: absolute;
+  border: 1px solid #f40;
+  top: 0px;
+  left: 190px;
+  z-index: 2;
+  display: none;
+  background-color: #fff;
+  border-left: none;
+  padding: 23px 11px 37px 17px;
+}
+.goodslist .sidelist .referli .submenu .subleft {
+  width: 454px;
+}
+.goodslist .sidelist .referli .submenu .subleft h3 {
+  height: 27px;
+  background: url(../images/girl.png) no-repeat;
+  padding-left: 30px;
+  color: #000;
+  line-height: 27px;
+  border-bottom: 1px solid #eee;
+}
+.goodslist .sidelist .referli .submenu .subleft h3 .more {
+  color: #999;
+  font-size: 12px;
+}
+.goodslist .sidelist .referli .submenu .subleft .girlclothes {
+  margin-bottom: 33px;
+}
+.goodslist .sidelist .referli .submenu .subleft .girlclothes li {
+  color: #999;
+  display: inline;
+  float: left;
+  margin-right: 16px;
+  line-height: 26px;
+}
+.goodslist .sidelist .referli .submenu .subleft .girlclothes li.red {
+  color: #fe4100;
+}
+.goodslist .sidelist .referli .submenu .subright {
+  width: 229px;
+  padding: 0px 7px;
+  color: #000;
+}
+.goodslist .sidelist .referli .submenu .subright .guesslist li {
+  display: inline;
+  float: left;
+  margin-bottom: 20px;
+}
+.goodslist .sidelist .referli .submenu .subright .guesslist li img {
+  width: 107px;
+  height: 110px;
+}
+.goodslist .sidelist .referli .submenu .subright .subright-top {
+  height: 56px;
+  text-align: center;
+}
+.goodslist .sidelist .referli .submenu .subright .subright-top p {
+  color: #999999;
+}
+.goodslist .sidelist .referli .submenu .subright .sline {
+  width: 20px;
+  height: 1px;
+  background: #eee;
+  display: inline-block;
+  position: relative;
+  top: -4px;
+}
+.goodslist .sidelist .referli .submenu .subright h2 {
+  display: inline-block;
+}
+.goodslist .sidelist .referli .submenu .subright .icon-xin {
+  font-size: 20px;
+  color: #df420c;
+  font-weight: bold;
+}
+.goodslist .sidelist .referli:hover {
+  background-color: #f94a14;
+}
+.goodslist .sidelist .referli:hover .submenu {
+  display: block;
+}
+.goodslist .sidelist .referli:hover .icon-weibiaoti101 {
+  color: #fff;
+}
+.goodslist .sidelist .referli a {
+  color: #fff;
+  font-weight: bold;
+}
+.goodslist .sidelist .referli .icon-arrow-right {
+  display: inline;
+  float: right;
+}
+.goodslist .sidelist .referli .icon-weibiaoti101 {
+  color: #FF904C;
+  font-size: 18px;
+  position: relative;
+  top: 2px;
+}
+.goodslist .slae {
+  width: 990px;
+  margin-left: 10px;
+  height: 532px;
+}
+.goodslist .specieslist {
+  height: 34px;
+  margin-top: -37px;
+}
+.goodslist .specieslist li {
+  display: inline;
+  float: left;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 6px;
+  margin-right: 2px;
+}
+.goodslist .specieslist li a {
+  color: #3C3C3C;
+}
+.goodslist .specieslist li:hover {
+  background: #f40;
+  border-radius: 17px;
+}
+.goodslist .specieslist li:hover a {
+  color: #fff;
+}
+.goodslist .specieslist .line {
+  color: #e1e1e1;
+}
+.goodslist .specieslist .main {
+  font-size: 16px;
+  color: #f40;
+  margin: 0px 2px;
+}
+.goodslist .salelist {
+  width: 690px;
+  margin-top: 8px;
+}
+.goodslist .salelist .salelist-top {
+  margin-bottom: 12px;
+}
+.goodslist .salelist .salelist-middle {
+  height: 20px;
+  width: 520px;
+  background: url(../images/slider2-title.gif) no-repeat;
+  border-bottom: 2px solid #c12c26;
+  padding-left: 50px;
+  padding-bottom: 3px;
+}
+.goodslist .salelist .salelist-middle h4,
+.goodslist .salelist .salelist-middle p {
+  display: inline-block;
+}
+.goodslist .salelist .salelist-middle h4 {
+  font-size: 14px;
+}
+.goodslist .salelist .salelist-middle .numshow {
+  margin-bottom: 2px;
+}
+.goodslist .salelist .salelist-middle span {
+  float: left;
+  font-size: 13px;
+}
+.goodslist .salelist .showoppo {
+  width: 520px;
+  height: 201px;
+  overflow: hidden;
+  position: relative;
+  margin-right: 10px;
+}
+.goodslist .salelist .showoppo:hover span {
+  display: block;
+}
+.goodslist .salelist .showoppo span {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  display: block;
+  width: 24px;
+  height: 36px;
+  line-height: 36px;
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+  cursor: pointer;
+  display: none;
+}
+.goodslist .salelist .slider1 {
+  width: 520px;
+  height: 280px;
+}
+.goodslist .salelist .slider1 .allimage {
+  width: 3640px;
+}
+.goodslist .salelist .slider2 {
+  width: 520px;
+  height: 201px;
+}
+.goodslist .salelist .slider2 .allimage {
+  width: 4160px;
+}
+.goodslist .salelist .slider2 .allimage li {
+  width: 520px;
+  height: 201px;
+}
+.goodslist .salelist .specialsell {
+  position: relative;
+  top: -20px;
+}
+.goodslist .salelist .specialsell p {
+  color: #a1a1a1;
+}
+.goodsdecrition .container {
+  width: 890px;
+}
+.goodsdecrition .section h3 {
+  text-indent: -999px;
+  margin: 10px 2px;
+  background: url(../images/sp/services-bg.png) no-repeat;
+}
+.goodsdecrition .section .more {
+  text-indent: 0px;
+  display: inline;
+  float: right;
+  display: inline-block;
+  width: 65px;
+  height: 20px;
+  padding: 2px 8px;
+  background: #ddd;
+  text-align: center;
+  border-radius: 10px;
+  color: #000;
+}
+.goodsdecrition .section .more:hover {
+  background: #f40;
+  color: #fff;
+}
+.goodsdecrition .often {
+  width: 890px;
+  height: 774px;
+  margin-bottom: 14px;
+}
+.goodsdecrition .often .likeitem {
+  display: inline;
+  float: left;
+  width: 440px;
+  height: 362px;
+  border: 2px solid #ddd;
+}
+.goodsdecrition .often .likeitem:nth-child(2n+1) {
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.goodsdecrition .often .likeitem:hover {
+  border-color: #0089CD;
+}
+.goodsdecrition .often .cols1 {
+  background-color: #406CC0;
+  width: 100px;
+  height: 358px;
+}
+.goodsdecrition .often .cols1 .sidelist {
+  margin-left: 6px;
+}
+.goodsdecrition .often .cols1 .sidelist dd {
+  margin-bottom: 4px;
+  display: inline;
+  float: left;
+  margin-right: 3px;
+}
+.goodsdecrition .often .cols1 .title {
+  font-size: 16px;
+  color: #fff;
+}
+.goodsdecrition .often .cols1 dd a {
+  color: #fff;
+  background: #6689CD;
+  padding: 4px 10px;
+}
+.goodsdecrition .often .cols1 dd a:hover {
+  color: #f40;
+  background-color: #fff;
+}
+.goodsdecrition .often .cols2 {
+  width: 201px;
+  height: 358px;
+}
+.goodsdecrition .often .cols2 .goods {
+  display: inline;
+  float: left;
+}
+.goodsdecrition .often .cols2 .small:nth-child(1) {
+  border-right: 1px solid #ddd;
+}
+.goodsdecrition .often .cols2 .big {
+  padding: 10px;
+  border-top: 1px solid #ddd;
+  position: relative;
+}
+.goodsdecrition .often .cols2 .big .mark {
+  display: inline-block;
+  width: 40px;
+  height: 24px;
+  background: #459AC4;
+  text-align: center;
+}
+.goodsdecrition .often .cols2 .big .markposi {
+  background: rgba(255, 255, 255, 0.8);
+  width: 100%;
+  height: 24px;
+  overflow: hidden;
+  transition: all 1s linear 0s;
+  position: absolute;
+  bottom: 10px;
+  cursor: pointer;
+}
+.goodsdecrition .often .cols2 .big .markposi:hover {
+  height: 90px;
+}
+.goodsdecrition .often .cols3 .small {
+  position: relative;
+  border-left: 1px solid #ddd;
+  padding: 7px;
+}
+.goodsdecrition .often .cols3 .small.firstsmall {
+  border-bottom: 1px solid #ddd;
+}
+.goodsdecrition .often .cols3 .small .only {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.8);
+  color: #000000;
+}
+.goodsdecrition .often .cols3 .big {
+  height: 99px;
+  width: 135px;
+  position: relative;
+  border-left: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+.goodsdecrition .often .cols3 .big img {
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+}
+.goodsdecrition .often .cols3 .big p {
+  position: absolute;
+}
+.goodsdecrition .often .cols3 .big .first {
+  top: 24px;
+  left: 8px;
+}
+.goodsdecrition .often .cols3 .big .second {
+  top: 47px;
+  left: 8px;
+}
+.goodsdecrition .often h3 {
+  background-position: center -608px;
+}
+.goodsdecrition .often .like2:hover {
+  border-color: #e9a326;
+}
+.goodsdecrition .often .like2 .cols1 {
+  background-color: #e9a326;
+}
+.goodsdecrition .often .like2 .cols1 dd a {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+.goodsdecrition .often .like2 .cols1 dd a:hover {
+  background-color: #fff;
+}
+.goodsdecrition .shangdu {
+  height: 72px;
+  display: block;
+  width: 890px;
+}
+.goodsdecrition .baoliao {
+  width: 890px;
+}
+.goodsdecrition .baoliao h3 {
+  margin: 10px 2px;
+  height: 19px;
+  background-position: center -730px;
+}
+.goodsdecrition .baoliao .blcontainer {
+  height: 260px;
+}
+.goodsdecrition .baoliao .goods2 img,
+.goodsdecrition .baoliao .goods3 img {
+  width: 90px;
+  height: 90px;
+}
+.goodsdecrition .baoliao .baoliaoitem {
+  width: 220px;
+  display: inline;
+  float: left;
+  cursor: pointer;
+  margin-right: 2px;
+  background-color: #fff;
+}
+.goodsdecrition .baoliao .baoliaoitem.nth-child(4) {
+  margin-right: 0;
+}
+.goodsdecrition .baoliao .baoliaoitem .fashiontop {
+  border-bottom: 1px solid #ddd;
+  padding-left: 59px;
+}
+.goodsdecrition .baoliao .baoliaoitem .goods1 {
+  width: 106px;
+  height: 221px;
+  padding: 10px 8px;
+  border-right: 1px solid #ddd;
+  position: relative;
+}
+.goodsdecrition .baoliao .baoliaoitem .goods1 p {
+  position: absolute;
+  background: #FF0055;
+  bottom: 12px;
+  color: #fff;
+  padding: 0 8px 0px 6px;
+  right: 7px;
+  width: 90px;
+}
+.goodsdecrition .baoliao .baoliaoitem .goods1 img {
+  height: 198px;
+  width: 90px;
+}
+.goodsdecrition .baoliao .baoliaoitem .goods2 {
+  padding: 10px 8px;
+  border-bottom: 1px solid #ddd;
+  position: relative;
+}
+.goodsdecrition .baoliao .baoliaoitem .goods2:hover p {
+  background: #fff;
+}
+.goodsdecrition .baoliao .baoliaoitem .goods2 p {
+  position: absolute;
+  bottom: 10px;
+  width: 90px;
+  background: rgba(255, 255, 255, 0.8);
+  text-align: center;
+}
+.goodsdecrition .baoliao .baoliaoitem .goods3 {
+  padding: 10px;
+  position: relative;
+}
+.goodsdecrition .baoliao .baoliaoitem .goods3:hover p {
+  background: #fff;
+}
+.goodsdecrition .baoliao .baoliaoitem .goods3 p {
+  position: absolute;
+  bottom: 10px;
+  width: 90px;
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+}
+.goodsdecrition .life {
+  width: 890px;
+}
+.goodsdecrition .life h3 {
+  margin: 10px 2px;
+  height: 19px;
+  background-position: center -690px;
+}
+.goodsdecrition .life .foodul > li {
+  display: inline;
+  float: left;
+  width: 220px;
+  margin-right: 2px;
+  margin-bottom: 4px;
+  border: 1px solid transparent;
+  background: #fff;
+}
+.goodsdecrition .life .foodul > li:hover {
+  border: 1px solid #f40;
+}
+.goodsdecrition .life .foodul > li .topimg {
+  border-bottom: 1px solid #ccc;
+  padding-left: 52px;
+}
+.goodsdecrition .life .foodwrap {
+  height: 151px;
+}
+.goodsdecrition .life .foodlist {
+  text-align: center;
+}
+.goodsdecrition .life .foodlist .food1 {
+  margin-left: 5px;
+  margin-top: 13px;
+}
+.goodsdecrition .life .foodlist .food2 {
+  margin-right: 5px;
+  margin-top: 13px;
+}
+.goodsdecrition .life .foodlist h3 {
+  line-height: 28px;
+  height: 28px;
+}
+.goodsdecrition .life .fbottom {
+  border-top: 1px solid #ccc;
+  padding: 10px;
+}
+.goodsdecrition .life .fbottom li {
+  display: inline;
+  float: left;
+  width: 30%;
+  line-height: 23px;
+}
+.goodsdecrition .life .housewrap .houselist {
+  display: inline;
+  float: left;
+  width: 108px;
+  height: 109px;
+  position: relative;
+  padding: 8px 10px;
+  margin: 0px;
+  cursor: pointer;
+}
+.goodsdecrition .life .housewrap .houselist:hover p {
+  background-color: #fff;
+  color: #f40;
+}
+.goodsdecrition .life .housewrap .houselist:nth-child(1) {
+  border-bottom: 1px solid #ddd;
+}
+.goodsdecrition .life .housewrap .houselist:nth-child(2) {
+  border-bottom: 1px solid #ddd;
+}
+.goodsdecrition .life .housewrap img {
+  width: 90px;
+  height: 90px;
+}
+.goodsdecrition .life .housewrap p {
+  position: absolute;
+  bottom: 10px;
+  width: 90px;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+.goodsdecrition .play {
+  width: 890px;
+}
+.goodsdecrition .play h3 {
+  margin: 10px 2px;
+  height: 19px;
+  background-position: center -529px;
+}
+.goodsdecrition .play .foodul > li {
+  display: inline;
+  float: left;
+  width: 220px;
+  margin-right: 2px;
+  margin-bottom: 4px;
+  border: 1px solid transparent;
+  background: #fff;
+}
+.goodsdecrition .play .foodul > li:hover {
+  border: 1px solid #f40;
+}
+.goodsdecrition .play .foodul > li .topimg {
+  border-bottom: 1px solid #ccc;
+  padding-left: 52px;
+}
+.goodsdecrition .play .foodwrap {
+  height: 151px;
+}
+.goodsdecrition .play .foodlist {
+  text-align: center;
+}
+.goodsdecrition .play .foodlist .food1 {
+  margin-left: 5px;
+  margin-top: 13px;
+}
+.goodsdecrition .play .foodlist .food2 {
+  margin-right: 5px;
+  margin-top: 13px;
+}
+.goodsdecrition .play .foodlist h3 {
+  line-height: 28px;
+  height: 28px;
+}
+.goodsdecrition .play .fbottom {
+  border-top: 1px solid #ccc;
+  padding: 10px;
+}
+.goodsdecrition .play .fbottom li {
+  display: inline;
+  float: left;
+  width: 30%;
+  line-height: 23px;
+}
+.goodsdecrition .play .housewrap .houselist {
+  display: inline;
+  float: left;
+  width: 108px;
+  height: 109px;
+  position: relative;
+  padding: 8px 10px;
+  margin: 0px;
+  cursor: pointer;
+}
+.goodsdecrition .play .housewrap .houselist:hover p {
+  background-color: #fff;
+  color: #f40;
+}
+.goodsdecrition .play .housewrap .houselist:nth-child(1) {
+  border-bottom: 1px solid #ddd;
+}
+.goodsdecrition .play .housewrap .houselist:nth-child(2) {
+  border-bottom: 1px solid #ddd;
+}
+.goodsdecrition .play .housewrap img {
+  width: 90px;
+  height: 90px;
+}
+.goodsdecrition .play .housewrap p {
+  position: absolute;
+  bottom: 10px;
+  width: 90px;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+.goodsdecrition .shihui {
+  width: 890px;
+  margin-bottom: 10px;
+}
+.goodsdecrition .shihui h3 {
+  margin: 10px 2px;
+  height: 19px;
+  width: 100%;
+  background-position: center -569px;
+}
+.goodsdecrition .shihui img {
+  display: inline;
+  float: left;
+  width: 220px;
+  height: 257px;
+  border: 1px solid #ddd;
+}
+.goodsdecrition .shihui img:hover {
+  border: 1px solid #f40;
+}
+.goodsdecrition .guession {
+  width: 890px;
+}
+.fixednav {
+  position: absolute;
+  right: 10px;
+  top: 550px;
+  background: #fff;
+  color: #000;
+  z-index: 9999;
+}
+.fixednav .fix li {
+  cursor: pointer;
+  width: 50px;
+  text-align: center;
+  line-height: 50px;
+  border-bottom: 1px solid #ddd;
+}
+.fixednav .fix .items:nth-child(1):hover,
+.fixednav .fix .items:nth-child(1).on {
+  background: url(../images/fixside/1.jpg) no-repeat;
+}
+.fixednav .fix .items:nth-child(2):hover,
+.fixednav .fix .items:nth-child(2).on {
+  background: url(../images/fixside/2.jpg) no-repeat;
+}
+.fixednav .fix .items:nth-child(3):hover,
+.fixednav .fix .items:nth-child(3).on {
+  background: url(../images/fixside/3.jpg) no-repeat;
+}
+.fixednav .fix .items:nth-child(4):hover,
+.fixednav .fix .items:nth-child(4).on {
+  background: url(../images/fixside/4.jpg) no-repeat;
+}
+.fixednav .fix .items:nth-child(5):hover,
+.fixednav .fix .items:nth-child(5).on {
+  background: url(../images/fixside/5.jpg) no-repeat;
+}
+.fixednav .fix .items:nth-child(6):hover,
+.fixednav .fix .items:nth-child(6).on {
+  background: url(../images/fixside/6.jpg) no-repeat;
+}
+.fixednav.fixed {
+  position: fixed;
+  top: 53px;
+  right: 10px;
+}

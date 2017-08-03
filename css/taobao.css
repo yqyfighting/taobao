@@ -1,0 +1,227 @@
+body {
+  font: 12px/1.5 tahoma, arial, 'Hiragino Sans GB', '\5b8b\4f53', sans-serif;
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.clear:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.lh20 {
+  line-height: 20px !important;
+  padding: 4px 0px;
+}
+.show {
+  overflow: hidden;
+  position: relative;
+  margin-right: 10px;
+}
+.show:hover span {
+  display: block;
+}
+.show span {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  display: block;
+  width: 24px;
+  height: 36px;
+  line-height: 36px;
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+  cursor: pointer;
+  display: none;
+}
+.allimage {
+  position: absolute;
+  left: -520px;
+}
+.allimage li {
+  display: inline;
+  float: left;
+}
+.order {
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 5px;
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.order li {
+  display: inline;
+  float: left;
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background: #B7B7B7;
+  margin: 2px;
+  cursor: pointer;
+}
+.rightarrow {
+  right: 0;
+}
+html,
+body,
+ul,
+li,
+ol,
+dl,
+dd,
+dt,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+form,
+fieldset,
+legend,
+img,
+div,
+input {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+fieldset,
+img {
+  border: none;
+}
+img {
+  display: block;
+}
+address,
+caption,
+cite,
+code,
+dfn,
+th,
+var {
+  font-style: normal;
+  font-weight: normal;
+}
+ul,
+ol {
+  list-style: none;
+}
+input {
+  padding-top: 0;
+  padding-bottom: 0;
+  font-family: "SimSun", "宋体";
+}
+input::-moz-focus-inner {
+  border: none;
+  padding: 0;
+}
+select,
+input {
+  vertical-align: middle;
+}
+select,
+input,
+textarea {
+  font-size: 12px;
+  margin: 0;
+}
+input[type="text"],
+input[type="password"],
+textarea {
+  outline-style: none;
+  -webkit-appearance: none;
+}
+textarea {
+  resize: none;
+}
+input,
+textarea {
+  background: none;
+  border: none;
+}
+table {
+  border-collapse: collapse;
+}
+body {
+  color: #333;
+  font: 12px/20px "SimSun", "宋体", "Arial Narrow", HELVETICA;
+  background: #fff;
+}
+a {
+  color: #666;
+  text-decoration: none;
+}
+a:visited {
+  color: #666;
+}
+a:hover,
+a:active,
+a:focus {
+  color: #ff8400;
+  text-decoration: none;
+}
+.w1190 {
+  width: 1190px;
+  margin: 0 auto;
+}
+.usernav {
+  height: 35px;
+  line-height: 35px;
+  background-color: #f5f5f5;
+  font-size: 12px;
+}
+.usernav .icon-liebiao1,
+.usernav .icon-gouwuche {
+  color: #f40;
+}
+.usernav .iconfont {
+  margin: 0px 4px;
+}
+.usernav li {
+  display: inline;
+  float: left;
+  padding: 0px 8px;
+  height: 35px;
+  cursor: pointer;
+}
+.usernav li:hover {
+  color: #f40;
+}
+.usernav .menu {
+  position: relative;
+}
+.usernav .menu:hover {
+  background-color: #fff;
+  border-left: 1px solid #ddd;
+}
+.usernav .menu:hover .submenu {
+  display: block;
+  border-top: 0;
+}
+.usernav .menu .submenu {
+  position: absolute;
+  width: 100px;
+  border: 1px solid #ddd;
+  top: 35px;
+  left: -1px;
+  padding: 0px 8px;
+  display: none;
+  z-index: 1000;
+  background-color: #fff;
+}
+.usernav .menu .sidemenu {
+  right: 0;
+  left: auto;
+  width: 1184px;
+}
+body {
+  background: #f1f1f1;
+}

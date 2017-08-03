@@ -1,0 +1,27 @@
+@import "z.less";
+@import "slider.less";
+.reset-sina();
+.w1190{width:1190px;margin:0 auto}
+.usernav{
+    height:35px;line-height:35px;
+    background-color: #f5f5f5;font-size:12px;
+    .icon-liebiao1,.icon-gouwuche{color:#f40;}
+    .iconfont{margin:0px 4px;}
+    li{.fl;padding:0px 8px;height:35px;cursor:pointer;
+        &:hover{color:#f40;}
+    }
+    .menu{position:relative;
+        &:hover{background-color: #fff;border-left:1px solid #ddd;
+            .submenu{display:block;border-top:0;}
+        }
+      .submenu{
+          position:absolute;width:100px;border:1px solid #ddd;top:35px;
+          left:-1px;
+          padding:0px 8px;display:none;z-index:1000;background-color:#fff;
+      }
+      .sidemenu{right:0;left:auto;width:1184px;}
+        }
+    
+}
+
+body{background:#f1f1f1;}

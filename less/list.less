@@ -1,0 +1,116 @@
+@import "taobao.less";
+@import "slider.less";
+
+.slider3{
+      width:1180px;height:330px;
+     .allimage{
+         width:8260px;
+         li{
+             width:1180px;height:330px;
+         }
+     }
+ } 
+ .smallslide{
+     margin-top:10px;
+     .slider4{
+      width:471px;height:300px;
+     .allimage{
+         width:2826px;
+         li{
+             width:471px;height:300px;
+         }
+     }
+ } 
+ }
+ 
+ 
+.searchlist{
+    height:130px;
+    background:#fff;
+    padding-top:20px;
+    h1{
+        background:url(../images/listpage/logo.png) no-repeat;
+        width:140px;height:45px;text-indent:-9999px;
+    }
+    .more{
+        margin-left:10px;
+        position:relative;
+        background:#fff;
+        width:80px;
+        height:24px;
+        top:10px;
+        &:hover{
+            .market{
+                border-bottom:0;
+            }
+            .slid{
+                display:block;
+            }
+        }
+        .slid dt,.slid dd{
+            .fl;margin:4px 10px;
+        }
+        .slid{
+            background:#fff;
+            position:absolute;
+            width:340px;
+            top:23px;
+            border:1px solid #ddd;
+            display:none;
+            z-index:4;
+        }
+        .market{
+            background: #fff;
+            position:absolute;
+            text-align:center;
+            width:80px;height:24px;
+            border:1px solid #ddd;
+            cursor:pointer;
+            z-index:10;
+        }
+        .slid dt{
+            font-weight:bold;
+        }
+    }
+    .containsearch{
+        position:relative;
+        width:530px;height:35px;
+        background-color: #F82800;
+        padding:2px 2px 2px 66px;
+        margin-right:100px;
+        input{
+            height:31px;width:372px;background-color: #fff;
+        }
+        button{
+               position:relative;top:2px;
+        }
+        .shuma{
+            border:none;outline:none;
+            background-color:#F82800;
+            width:78px;
+        }
+        .quanzhan{
+            border:1px solid #FFB08B;
+            outline:none;height:35px;
+            width:80px;margin-right:-86px;
+            top:-2px;
+        }
+        .baby{
+            height:31px;
+            overflow:hidden;
+            position:absolute;
+            width:64px;
+            left:2px;top:2px;
+            background:#FAFAFA;
+            line-height:31px;text-align:center;
+//          transition:all 1s linear 0s;
+            &:hover{
+                height:62px;
+            }
+        }
+    }
+}
+.navtop{
+    background:#fff;
+    border-bottom:4px solid #0DC3CE;
+}
